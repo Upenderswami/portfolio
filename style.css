@@ -1,0 +1,303 @@
+*
+{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins'
+}
+.all
+ {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 35px 0;
+    margin: 0;
+    background: #040b14;
+    
+    height: 100%;
+}
+
+.center
+{
+    text-align: center;
+}
+.mydp img
+{
+    border: 4px solid white;
+    width: 9vw;
+    height:18vh ;
+    border-radius: 50%;
+}
+.mydp h1
+{
+    margin: 10px 5px;
+    padding: 5px 5px;
+    font-size: 25PX;
+   color: aliceblue;
+    
+}
+ul
+{
+    list-style: none;
+}
+.icon span:hover 
+{
+
+    background-color:darkorange;
+    color: rgb(12, 13, 14);
+}
+.icon span
+{
+    color: white;
+}
+.icon span
+{
+    text-align: center;
+   padding: 10px 15px;
+   border-radius: 50%;
+}
+.header
+{
+
+    margin: 30px 0px;
+}
+.header a,li
+{
+    display: block;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+}
+.header i
+{
+    padding: 0px 10px;
+}
+.header a:hover
+{
+    color:darkorange;
+    
+}
+li a:hover .all
+{
+    background-color: yellowgreen;
+    color:pink;
+}
+/* next */
+.myimage
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.062),rgba(0, 0, 0, 0.575)), url(./image/two1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* position: fixed; */
+}
+.names
+{    right: 100px;
+    top: 40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* margin: 400px 500px 0 0; */
+   
+}
+.names h1
+{
+    font-size: 30px;
+}
+.names p
+{
+    font-size: 30px;
+}
+.about p
+{
+    padding: 5px 12px;
+    margin-left: 300px;
+   background-color: rgb(173, 204, 204);
+   width: 76.8vw;
+   font-size: 20px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mydetails img
+{
+   width: 300px;
+}
+.mydetails
+{
+    margin-left: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9badc5;
+
+}
+.mydetail
+{
+    display: flex;
+    gap: 30px;
+
+}
+.dob h1
+{
+    padding: 20px;
+}
+.bod h1
+{
+    padding: 20px;
+}
+.bod span
+{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.856);
+
+}
+.dob span
+{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.856);
+}
+.portfolio
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 40px 120px 50px 120px;
+}
+.portfolioone img
+{
+    width: 400px;
+    height: 197px;
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.377);
+}
+.portfoliotwo img
+{
+    border-radius: 10px;
+
+    width: 400px;
+    margin-left: 70px;
+    border: 3px solid rgba(0, 0, 0, 0.329);
+}
+.portfolio1 p
+
+{
+    padding: 5px 12px;
+    margin-left: 300px;
+   background-color: rgb(173, 204, 204);
+   width: 76.8vw;
+   font-size: 20px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main
+{
+    background-color: #040b14;
+    width: 300px;
+    height: 500px;
+    margin:0 0 0 600px ;
+}
+.location
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+}
+.twoicon span
+{
+    font-size: 60px;
+    background-color: #1257b1;
+    border-radius: 50%;
+    color: aqua;
+    padding: 10px;
+}
+.twoicon span:hover 
+{
+    
+    color: red;
+}
+.section6{
+    display: flex;
+    margin: 50px 10px 0 290px;
+    box-shadow: 0px 0px 5px ;
+}
+.section6-box{
+    display: flex;
+    padding: 15px;
+    width: 300px;
+    margin: 35px;
+    background-color: #009282;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+
+.section6-input-box{
+    display: flex;
+    margin-top: 18px;
+}
+.section6-main-box1{
+    background-color: #135e54;
+    color: white;
+    width: 380px;
+}
+.section6-icon{
+    padding: 15px;
+}
+.section6-text{
+    line-height: 25px;
+}
+.section6-input1 input{
+    width: 288px;
+    height: 45px;
+    padding: 10px;
+    margin: 22px;
+
+}
+.section6-input-box2 input{
+
+    width: 621px;
+    height: 45px;
+    padding: 10px;
+    margin: 0px 22px;
+}
+.section6-input-box3 textarea{
+
+    width: 621px;
+    height: 180px;
+    padding: 10px;
+    margin: 30px 22px;
+}
+
+.login3{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.login3 a{
+    color: white;
+    text-decoration: none;
+    background-color: #00578af2;
+    padding: 13px 50px;
+    border-radius: 22px;
+}
+.login3 a:hover
+{
+  background-color: #072b5a;
+  color: white;
+}
+.mymap
+{
+    margin: 0 299px ;
+}
